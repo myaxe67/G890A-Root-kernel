@@ -67,12 +67,12 @@ export SUB_ARCH=arm64;
 
 # G920T
 if [ "$TARGET" = "G890A" ] ; then
-	export KERNEL_CONFIG="custom_defconfig";
+	export KERNEL_CONFIG="marinelteatt_02_defconfig";
 fi;
 
 # G925T
-if [ "$TARGET" = "G890" ] ; then
-	export KERNEL_CONFIG="custom-zeroltetmo";
+if [ "$TARGET" = "G890A" ] ; then
+	export KERNEL_CONFIG="marinelteatt_02_defconfig";
 fi;
 
 # build script
